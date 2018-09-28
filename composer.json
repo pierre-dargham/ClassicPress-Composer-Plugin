@@ -1,0 +1,31 @@
+{
+    "name": "pierre-dargham/classicpress-composer-plugin",
+    "description": "ClassicPress Composer plugin",
+    "keywords": [
+        "classicpress"
+    ],
+    "type": "composer-plugin",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.classicpress.net/",
+    "authors": [
+        {
+            "name": "ClassicPress Community",
+            "homepage": "https://www.classicpress.net/contributors/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ClassicPress/ClassicPress-Composer-Plugin/issues"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.5.1"
+    },
+    "autoload": {
+        "psr-0": {"ClassicPress\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "ClassicPress\\Composer\\ComposerPlugin"
+    }
+}
